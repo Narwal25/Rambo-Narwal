@@ -2,64 +2,83 @@
   <img src="https://github.com/Fosssil/Rambo/blob/main/LOGO.png" />
 </p> 
 
-Fossil :wilted_flower: <br>
-A Backup and Restore application for linux based OSs <br>
-### How it works
-* Firstly it will check for required packages.
-    1. If found it will go for next step .
-    2. If not found then it will install the required packages.
-* Next it will ask for following options. (As per user Choice)
-    1. Automatic data backup  
-    2. Manual data backup.
-* Then next step will be where to store data. (As per user choice)
-    1. Locally  ( if local it will save data in Hdd and ssd)
-    2. Cloud  ( if cloud it will save data in) 
-* Then the data get seleted , compressed and saved in required storage .
+# Rambo Narwal
 
-### Technoloy used 
- * Linux
- * git
- * docker
- * bash 
- * aws
- * ssh
- * rsync
- * VMs
- * tar
- * bzip2
- * gzip
- * cpio
- 
-   
-   
- 
+Rambo Narwal is a fork of [Fosssil/Rambo](https://github.com/Fosssil/Rambo), a Backup and Restore application for Linux-based operating systems. The fork, managed by [@Narwal25](https://github.com/Narwal25), includes additional functionality for remote storage, allowing users to store and retrieve backups from Amazon S3.
 
+## Project Overview
 
+- **Changes Made:**
+  - Updated required packages.
+  - Added remote storage functionality for Amazon S3.
+  - Major changes to various scripts.
+  - Added installation functionality.
 
+## How it Works
 
+Rambo Narwal follows these steps:
 
+1. Checks for required packages. Installs them if not found.
+2. Offers options for automatic or manual data backup.
+3. Asks where to store data (local or cloud).
+4. Selects, compresses, and saves data in the chosen storage.
 
+## Technology Used
 
+- Linux
+- Git
+- Docker
+- Bash
+- AWS
+- SSH
+- Rsync
+- VMs
+- Tar
+- Bzip2
+- Gzip
+- Cpio
 
+## Contributors
 
+- [Pardeep Narwal](https://github.com/Narwal25)
+- [Sagar Dahiya](https://github.com/Fosssil)
 
+## Installation
 
+1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/Narwal25/rambo-narwal.git
+   ```
 
+2. Navigate to the project directory:
 
+   ```bash
+   cd rambo-narwal
+   ```
 
+3. Run the install script:
 
+   ```bash
+   bash install.sh
+   ```
 
+## Usage
 
+Execute Rambo Narwal with:
 
+```bash
+bash main.sh
+```
 
+## Contributing
 
+We welcome contributions to enhance Rambo Narwal. If you are interested in contributing, please reach out to the project contributors for more details and guidance.
 
+## License
 
-## Team Members and their roles.
-Easter egg: You ask to execute command, but you don't ask with sudo 
-1. Sagar Dahiya
-2. Deepak Chandra Pandey
-3. Pardeep
-4. Aditya Singh 
+This project is licensed under the [GNU GENERAL PUBLIC LICENSE 3.0](LICENSE).
 
+## Acknowledgments
+
+Thanks to the original Rambo project contributors and the Rambo Narwal team for their contributions and efforts.

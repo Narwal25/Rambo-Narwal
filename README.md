@@ -48,13 +48,13 @@ Rambo Narwal follows these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Narwal25/rambo-narwal.git
+   git clone https://github.com/Narwal25/Rambo-Narwal.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd rambo-narwal
+   cd Rambo-Narwal
    ```
 
 3. Run the install script:
